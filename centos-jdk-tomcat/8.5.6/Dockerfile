@@ -3,6 +3,8 @@
 # Oracle Java 1.8.0
 # Apache Tomcat 8.5.6
 #
+# https://github.com/mattcrooke/docker/tree/tomcat/centos-jdk-tomcat/8.5.6
+#
 # Author: matthewcrooke@gmail.com
 # Date: 22nd October 2016
 #
