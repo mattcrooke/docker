@@ -1,6 +1,6 @@
 #
 # OpenJDK 1.8.0 on Centos 7.1 
-# https://github.com/mattcrooke/docker/blob/master/centos-openjdk/1.8.0/Dockerfile
+# https://github.com/mattcrooke/docker/tree/master/centos-openjdk/1.8.0
 #
 # Author: matthewcrooke@gmail.com
 # Date: 2 November 2016
