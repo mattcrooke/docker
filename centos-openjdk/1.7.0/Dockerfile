@@ -1,5 +1,6 @@
 #
 # OpenJDK 1.7.0 on Centos 7.1 
+# https://github.com/mattcrooke/docker/blob/master/centos-openjdk/1.7.0/Dockerfile
 #
 # Author: matthewcrooke@gmail.com
 # Date: 2 November 2016
