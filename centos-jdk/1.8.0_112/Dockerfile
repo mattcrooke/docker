@@ -1,5 +1,6 @@
 #
 # Oracle Java 1.8.0_112 on Centos 7.1 
+# https://github.com/mattcrooke/docker/blob/master/centos-jdk/1.8.0_112/Dockerfile
 #
 # Author: matthewcrooke@gmail.com
 # Date: 2nd November 2016
