@@ -1,20 +1,26 @@
 #
 # Oracle Java 1.8.0 on Centos 7.1 
 #
+# 
+#
 # Author: matthewcrooke@gmail.com
 # Date: 21st October 2016
 #
-# build: docker build -t centos-jdk:1.8.0_102 .
-# usage: docker run -it centos-jdk:1.8.0_102
+# build: 
+#	docker build -t java:1.8.0_102 .
+# usage: 
+#	docker run -it java:1.8.0_102
+#	# java -version
+#
+# push:
+# 	docker login
+# 	docker tag centos-jdk:1.8.0_102 mattcrooke/centos-jdk:1.8.0_102
+# 	docker push mattcrooke/centos-jdk:1.8.0_102
 #
 
 FROM centos:7.1.1503
 
 MAINTAINER matthewcrooke@gmail.com
-
-LABEL Vendor="java"
-LABEL License=GPLv2
-LABEL Version=1.8.0_102
 
 # declare the java version
 ENV JAVA_VERSION 1.8.0_102
@@ -45,7 +51,7 @@ RUN set -x \
 
 # install java
 RUN set -x \
-	tar -xvf jdk-8u102-linux-x64.tar.gz --strip-components=1 \ 
+	tar -xvf jdk-8u102-linux-x64.tar.gz \ 
 	&& ln -s $INSTALL_DIR/jdk1.8.0_102 $JAVA_HOME \ 
 	&& chmod +x $JAVA_HOME/bin/java
 
