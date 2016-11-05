@@ -3,6 +3,8 @@
 # OpenJDK 1.8.0
 # Apache Tomcat 8.5.6
 #
+# https://github.com/mattcrooke/docker/tree/master/centos-openjdk-tomcat/8.5.6
+#
 # Author: matthewcrooke@gmail.com
 # Date: 5th November 2016
 #
