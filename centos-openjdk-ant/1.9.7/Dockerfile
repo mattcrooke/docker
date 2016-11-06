@@ -3,6 +3,8 @@
 # Oracle Java 1.8.0
 # Apache Ant 1.9.7
 #
+# https://github.com/mattcrooke/docker/tree/master/centos-openjdk-ant/1.9.7
+#
 # Author: matthewcrooke@gmail.com
 # Date: 5th November 2016
 #
